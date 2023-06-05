@@ -10,11 +10,6 @@ const enterBudget = document.querySelector('#enter-budget'),
 
 let budget;
 
-
-//  EVENT LISTENERS
-document.addEventListener('DOMContentLoaded', function() {
-    enterBudget.focus();
-})
 formFirst.addEventListener('submit', init);
 formSecond.addEventListener('submit', addExpence);
 
